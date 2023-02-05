@@ -2,8 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true,
+    loader: "akamai",
+    path: "",
   },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
